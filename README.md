@@ -1,4 +1,6 @@
-# Python-Template
+# AP-Calculus-AB
+
+Some handy scripts I used to study for in Calculus 1.
 
 ## Support
 
