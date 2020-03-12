@@ -1,0 +1,39 @@
+{
+    "Derive": {
+        "arctan(u)": "du / 1 + u^2",
+        "ln(u)": "du / u",
+        "arcsin(u)": "du / (1 - u^2)^(1/2)",
+        "tan(u)": "sec^2(u)du",
+        "sin(u)": "cos(u)du",
+        "u^n": "n * u^(n-1) * du",
+        "csc(u)": "-csc(u)cot(u)du",
+        "cot(u)": "-csc^2(u)du",
+        "sec(u)": "sec(u)tan(u)du",
+        "a^u": "(a^u) * ln(a)du",
+        "arcsec(u)": "du / |u|(u^2 - 1)^(1/2)",
+        "arccot(u)": "-du / (1 + u^2)",
+        "e^u": "(e^u) * du",
+        "arccos(u)": "-du / (1 - u^2)^(1/2)",
+        "cos(u)": "-sin(u)du",
+        "arccsc(u)": "-du / |u|(u^2 - 1)^(1/2)"
+    },
+    "Integrate": {
+        "sin(u)du": "-cos(u) + c",
+        "tan(u)du": "-ln|cos(u)| + c",
+        "csc(u)cot(u)du": "-csc(u) + c",
+        "du / (1 - u^2)^(1/2)": "arcsin(u) + c",
+        "a^u * du": "(a^u / ln(a)) + c",
+        "sec^2(u)du": "tan(u) + c",
+        "du / (1 + u^2)": "arctan(u) + c",
+        "sec(u)du": "ln|sec(u) + tan(u)| + c",
+        "e^u * du": "e^u + c",
+        "sec(u)tan(u)du": "sec(u) + c",
+        "du/u": "ln|u| + c",
+        "csc^2(u)du": "-cot(u) + c",
+        "u^n * du": "u^(n+1) / (n + 1) + c",
+        "cos(u)du": "sin(u) + c",
+        "csc(u)du": "-ln|csc(u) + cot(u)| + c",
+        "cot(u)du": "ln|sin(u)| + c",
+        "du / u * (u^2 - 1)^(1/2)": "arcsec|u| + c"
+    }
+}
