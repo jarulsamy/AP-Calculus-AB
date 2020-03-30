@@ -11,7 +11,7 @@ class QA(object):
         self.question = question
         self.correct = correct_answer
         self.incorrect = []
-        if self.incorrect == None:
+        if self.incorrect is None:
             self.incorrect = []
         else:
             self.incorrect = incorrect
