@@ -1,13 +1,9 @@
-# -*- coding: utf-8 -*-
 import json
 import random
-from pprint import pprint
 
 from PyInquirer import prompt
-from PyInquirer import Separator
 from PyInquirer import style_from_dict
 from PyInquirer import Token
-from sympy import pretty_print as pp
 
 
 class QA(object):
